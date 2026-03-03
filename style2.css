@@ -1,0 +1,125 @@
+/* Contact Page Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Helvetica Neue', sans-serif;
+    --font-size: 16px;
+    --line-height: 1.5;
+    --font-family: 'Akaya Kanadaka', 'Pacifico', sans-serif;
+}
+body {
+    font-family: var(--font-family);
+    background-image: url(images/white-paper-texture-background.jpg);
+    background-size: 35%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#icon img {
+    display: flex;
+    position: relative;
+    width: 95px;
+    margin-left: 1.75rem;
+    top: 3rem;
+    z-index: 2;
+    margin-top: -2rem;
+}
+header {
+    font-size: large;
+    font-weight: bold;
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    width: 100vw;
+}
+header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    display: block;
+    justify-content: left;
+    left: 12rem;
+    text-shadow: 2px 2px 3px black;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+    font-family: var(--font-family);
+}
+ul {
+    display: block;
+    text-align: right;
+    justify-content: right;
+    padding: 1rem;
+    gap: 1rem;
+    list-style: none;
+}
+a:hover {
+    color:#3498db
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px #35424a;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    color: #3498db;
+    text-shadow: 1px 1px 3px white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -3rem;
+}
+form {
+    color: white;
+    text-shadow: 1px 1px 1px gray;
+    display: block;
+    text-align: left;
+    width: 50%;
+    background-color: darkgreen;
+    background-size: 30%;
+    padding: 30px 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5rem auto;
+    box-shadow: 2px 2px 4px white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form [type="submit"] {
+    font-family: var(--font-family);
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form [type="submit"]:hover {
+    background-color: #3498db;
+    color: white;
+    box-shadow: 1px 1px 2px white;
+    border-color: #3498db;
+    border-radius: 5px;
+}
+footer {
+ text-align: center;
+}
